@@ -40,13 +40,14 @@ const ParticipantEditor = ({ participants, onParticipantsChange }) => {
   };
 
   return (
-    <CardHeader className="pb-0">
-      <CardTitle className="text-xl font-bold text-cyan-300 flex items-center gap-2">
-        <Users className="h-5 w-5" />
-        Participantes
-      </CardTitle>
-    </CardHeader>
-    <CardContent className="space-y-4">
+    <>
+      <CardHeader className="pb-0">
+        <CardTitle className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+          <Users className="h-5 w-5" />
+          Participantes
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-4">
       <div className="space-y-2">
         <label className="text-sm text-cyan-200">
           Escribe un participante por línea:
