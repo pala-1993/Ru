@@ -110,6 +110,7 @@ María López"
         </div>
       )}
     </CardContent>
+    </>
   );
 };
 
