@@ -3,8 +3,8 @@ from typing import List
 from datetime import datetime
 import random
 
-from ..models.game import Game, GameCreate, GameUpdate, SpinRequest, SpinResponse, Winner
-from ..database import get_database
+from models.game import Game, GameCreate, GameUpdate, SpinRequest, SpinResponse, Winner
+from database import get_database
 
 router = APIRouter(prefix="/api/roulette", tags=["roulette"])
 
